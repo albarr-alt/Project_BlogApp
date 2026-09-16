@@ -24,6 +24,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/// LoginPage allows existing users to authenticate with email and password.
+/// Integrates with AuthService for API authentication and token storage.
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
