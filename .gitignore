@@ -1,0 +1,101 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# Backend / Node.js (Server)
+# ==========================================
+Server/node_modules/
+node_modules/
+Server/.env
+Server/.env.*
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+Server/dist/
+Server/build/
+Server/.drizzle/
+
+# ==========================================
+# Mobile / Flutter & Dart (mobile)
+# ==========================================
+# Flutter/Dart build artifacts
+**/mobile/.dart_tool/
+**/mobile/.packages
+**/mobile/.pub-cache/
+**/mobile/.pub/
+**/mobile/build/
+
+# Android-specific
+**/mobile/android/**/gradle-wrapper.jar
+**/mobile/android/.gradle
+**/mobile/android/captures/
+**/mobile/android/gradlew
+**/mobile/android/gradlew.bat
+**/mobile/android/local.properties
+**/mobile/android/**/GeneratedPluginRegistrant.java
+**/mobile/android/key.properties
+**/mobile/android/app/release/
+**/mobile/android/app/debug/
+**/mobile/android/app/profile/
+
+# iOS/macOS-specific
+**/mobile/ios/**/*.mode1v3
+**/mobile/ios/**/*.mode2v3
+**/mobile/ios/**/*.moved-aside
+**/mobile/ios/**/*.pbxuser
+**/mobile/ios/**/*.perspectivev3
+**/mobile/ios/**/*sync/
+**/mobile/ios/**/.sconsign.dblite
+**/mobile/ios/**/.tags*
+**/mobile/ios/**/.vagrant/
+**/mobile/ios/**/DerivedData/
+**/mobile/ios/**/Icon?
+**/mobile/ios/**/Pods/
+**/mobile/ios/**/.symlinks/
+**/mobile/ios/**/profile
+**/mobile/ios/**/xcuserdata
+**/mobile/ios/.generated/
+**/mobile/ios/Flutter/App.framework
+**/mobile/ios/Flutter/Flutter.framework
+**/mobile/ios/Flutter/Flutter.podspec
+**/mobile/ios/Flutter/Generated.xcconfig
+**/mobile/ios/Flutter/app.flx
+**/mobile/ios/Flutter/app.zip
+**/mobile/ios/Flutter/flutter_assets/
+**/mobile/ios/Flutter/flutter_export_environment.sh
+**/mobile/ios/ServiceDefinitions.json
+**/mobile/ios/Runner/GeneratedPluginRegistrant.h
+**/mobile/ios/Runner/GeneratedPluginRegistrant.m
+
+# Flutter plugins
+**/mobile/.flutter-plugins
+**/mobile/.flutter-plugins-dependencies
+
+# Symbols and coverage
+**/mobile/app.*.symbols
+**/mobile/app.*.map.json
+**/mobile/coverage/
