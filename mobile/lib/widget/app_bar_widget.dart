@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../utils/app_colors.dart';
 
+/// Custom reusable AppBar widget for Babble application.
+/// Supports optional back button, custom title, and action icons.
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final bool showBackButton;
